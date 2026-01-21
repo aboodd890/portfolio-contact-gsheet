@@ -15,7 +15,6 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
         return;
     }
 
-    // نرسل بدون انتظار رد
     fetch(WEB_APP_URL, {
         method: "POST",
         mode: "no-cors",
